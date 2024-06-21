@@ -95,6 +95,7 @@ function load_score(runtime) {
 			 api_ready();
 	}
 })}
+
  
 function save_lb_result(score_lb){
   if (ysdk.isAvailableMethod("leaderboards.setLeaderboardScore")){
